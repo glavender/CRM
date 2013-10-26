@@ -8,4 +8,12 @@ class Contact
     @note = note
     @idd = idd
   end
+
+  def display_contact
+    puts "#{first_name} #{last_name}"
+    puts email
+    puts note
+    puts idd
+    puts ""
+  end
 end
